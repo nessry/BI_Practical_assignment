@@ -1,0 +1,12 @@
+This program is tested on Windows OS, Python 3.7
+
+The Python modules needed are:
+- pandas
+- pathlib
+- os
+- psycopg2
+- datetime
+- re
+- dateutil.parser
+
+For database creation, install PostgreSQL on your machine.
