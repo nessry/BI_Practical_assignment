@@ -10,7 +10,7 @@ The data preparation steps are:
 - Replace single quote in strings with double quote (single quote error when inserting values into tables).
 - Convert date columns to a well defined format that can be parsed by database.
 
-- This program is tested on Windows OS, Python 3.7
+This program is tested on Windows OS, Python 3.7
 
 The Python modules needed are:
 - pandas
@@ -21,8 +21,9 @@ The Python modules needed are:
 - re
 - dateutil.parser
 
-- For database creation, install PostgreSQL on your machine and you can use pgAdmin or PostgreSQL console to create database schema.
-- Database is composed of two enumerated types valid_transaction_type and valid_account_type with three tables persons, accounts and transactions.
+For database creation, install PostgreSQL on your machine and you can use pgAdmin or PostgreSQL console to create database schema.
+
+Database is composed of two enumerated types valid_transaction_type and valid_account_type with three tables persons, accounts and transactions.
 
 The sql_queries folder contains the SQL scripts:
 - db_queries.sql: Database schema creation script using PostgreSQL console.
